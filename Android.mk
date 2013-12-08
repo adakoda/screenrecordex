@@ -33,6 +33,6 @@ LOCAL_CFLAGS += -Wno-multichar
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_MODULE:= screenrecord
+LOCAL_MODULE:= screenrecordex
 
 include $(BUILD_EXECUTABLE)
