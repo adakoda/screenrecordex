@@ -38,21 +38,19 @@
 
 <h3>
 <a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Install</h3>
-<pre><code>
-$ adb push screenrecordex /data/local/tmp
+<p>To install the screenrecordex from the command line, type the following:</p>
+<pre><code>$ adb push screenrecordex /data/local/tmp
 $ adb shell 755 /data/local/tmp/screenrecordex
 </code></pre>
 
 <h3>
 <a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Run</h3>
-<p>To use the screenrecord from the command line, type the following:</p>
-<pre><code>
-$ adb shell /data/local/tmp/screenrecordex /sdcard/output.mp4
+<p>To use the screenrecordex from the command line, type the following:</p>
+<pre><code>$ adb shell /data/local/tmp/screenrecordex /sdcard/output.mp4
 </code></pre>
 <p>Stop the screen recording by pressing Ctrl-C, otherwise the recording stops automatically at 60 minutes or the time limit set by --time-limit.</p>
 <p>After recording you can download the file from device using adb pull command.</p>
-<pre><code>
-adb pull /sdcard/output.mp4 .
+<pre><code>adb pull /sdcard/output.mp4 .
 </code></pre>
 
       </section>
